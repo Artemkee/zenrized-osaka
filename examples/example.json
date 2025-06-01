@@ -1,0 +1,30 @@
+{
+    "user": {
+        "id": 12345,
+        "username": "johndoe",
+        "email": "john@example.com",
+        "isActive": true,
+        "roles": ["admin", "editor", "user"]
+    },
+    "settings": {
+        "theme": "dark",
+        "notifications": {
+            "email": true,
+            "sms": false,
+            "push": true
+        },
+        "language": "en-US"
+    },
+    "projects": [
+        {
+            "name": "Project Alpha",
+            "created": "2025-06-01T12:00:00Z",
+            "status": "active"
+        },
+        {
+            "name": "Project Beta",
+            "created": "2025-05-15T09:30:00Z",
+            "status": "archived"
+        }
+    ]
+}

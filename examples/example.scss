@@ -1,0 +1,35 @@
+// Variables
+$primary-color: #2aa198;
+$secondary-color: #b58900;
+$font-stack: "JetBrains Mono", monospace;
+$spacing: 16px;
+
+// Mixin
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Base styles
+body {
+    font-family: $font-stack;
+    background: #0f1419;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    @include flex-center;
+    background: $secondary-color;
+    color: white;
+    padding: $spacing $spacing * 2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        background: darken($secondary-color, 10%);
+    }
+}

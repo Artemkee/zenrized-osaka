@@ -4,6 +4,20 @@
 
 Visual Studio Code theme inspired by [solarized-osaka.nvim](https://github.com/craftzdog/solarized-osaka.nvim)
 
+## 📸 Screenshots
+
+### Typescript
+
+![Zenrized Osaka in Typescripts](screenshots/example_tsx.png)
+
+### PHP
+
+![Zenrized Osaka in PHP](screenshots/example_php.png)
+
+### Object-like files (JSON, CSS, etc.)
+
+![Zenrized Osaka in Object-like files](screenshots/example_json.png)
+
 ## 📦 Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Artemkee.zenrized-osaka)
@@ -11,8 +25,9 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 ## ⚙️ Suggest Editor Settings
 
 ```
- "editor.fontSize": 14,
- "editor.fontFamily": "JetBrains Mono",
+"editor.fontSize": 14,
+"workbench.tree.indent": 10,
+"editor.fontFamily": "JetBrains Mono",
 ```
 
 JetBrains Mono Download: [https://www.jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono)
