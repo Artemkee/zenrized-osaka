@@ -1,0 +1,10 @@
+# Auto-generated theme file
+.vscode/**
+.vscode-test/**
+*.vsix
+
+# Theme files
+vsc-extension-quickstart.md
+
+# Other files
+.DS_Store

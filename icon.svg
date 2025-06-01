@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 128 128" fill="none"
+xmlns="http://www.w3.org/2000/svg">
+<circle cx="64" cy="64" r="60" fill="#0f1419"/>
+<!-- Энсо (дзен-круг) -->
+
+<path d="M32 64a32 32 0 1 1 64 0" stroke="#2aa198" stroke-width="8" fill="none" stroke-
+linecap="round"/>
+
+<!-- Гора Фудзи -->
+<path d="M40 92 L64 52 L88 92 Z" fill="#b58900"/>
+<!-- Снег на вершине -->
+<path d="M58 62 Q64 56 70 62 L64 52 Z" fill="#9eacad"/>
+<!-- Солнце -->
+<circle cx="92" cy="44" r="10" fill="#cb4b16" opacity="0.85"/>
+</svg>
