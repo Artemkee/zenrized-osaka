@@ -27,10 +27,36 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 ```
 "editor.fontSize": 14,
 "workbench.tree.indent": 10,
-"editor.fontFamily": "JetBrains Mono",
+"editor.fontFamily": "JetBrains Mono"
 ```
 
 JetBrains Mono Download: [https://www.jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono)
+
+## 🛠️ Theme Customization
+
+If you want to remove _italic_ style from type keywords and control flow keywords, you can easily override this in your VS Code settings.
+
+1. Open `Command Palette` (`CMD+SHIFT+P` for Mac, `CTRL+SHIFT+P` for Windows/Linux, with the default key bindings)
+2. Type `Preferences: Open User Settings (JSON)` and select it from the list.
+3. Add the following to your `settings.json`:
+
+```json
+"editor.tokenColorCustomizations": {
+  "[Zenrized Osaka]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "storage.type",
+          "keyword.control.flow"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
+```
 
 ## 💡 Contributing & Feedback
 
